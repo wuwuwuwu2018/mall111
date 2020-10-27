@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.firenay.mallcart.MallCartApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.905 s <<< FAILURE! - in com.firenay.mallcart.MallCartApplicationTests
+contextLoads  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl': Unsatisfied dependency expressed through field 'productFeignService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.firenay.mallcart.feign.ProductFeignService': FactoryBean threw exception on object creation; nested exception is java.lang.NoClassDefFoundError: com/firenay/common/utils/R
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl': Unsatisfied dependency expressed through field 'productFeignService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.firenay.mallcart.feign.ProductFeignService': FactoryBean threw exception on object creation; nested exception is java.lang.NoClassDefFoundError: com/firenay/common/utils/R
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.firenay.mallcart.feign.ProductFeignService': FactoryBean threw exception on object creation; nested exception is java.lang.NoClassDefFoundError: com/firenay/common/utils/R
+Caused by: java.lang.NoClassDefFoundError: com/firenay/common/utils/R
+Caused by: java.lang.ClassNotFoundException: com.firenay.common.utils.R
+

@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "glmall.thread",
+      "type": "com.firenay.mall.product.config.ThreadPoolConfigProperties",
+      "sourceType": "com.firenay.mall.product.config.ThreadPoolConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "glmall.thread.core-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.firenay.mall.product.config.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "glmall.thread.keep-alive-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.firenay.mall.product.config.ThreadPoolConfigProperties"
+    },
+    {
+      "name": "glmall.thread.max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.firenay.mall.product.config.ThreadPoolConfigProperties"
+    }
+  ],
+  "hints": []
+}

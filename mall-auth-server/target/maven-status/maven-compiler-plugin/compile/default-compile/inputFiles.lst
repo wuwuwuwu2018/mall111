@@ -1,0 +1,10 @@
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/vo/UserLoginVo.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/vo/SocialUser.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/controller/Oath2Controller.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/feign/MemberFeignService.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/MallAuthServerApplication.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/feign/ThirdPartFeignService.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/controller/LoginController.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/config/MyWebConfig.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/vo/UserRegisterVo.java
+/Users/rose/Desktop/谷粒/B站【谷粒商城】资料/mall-mall-v2/mall-auth-server/src/main/java/com/firenay/mall/auth/config/GlMallSessionConfig.java

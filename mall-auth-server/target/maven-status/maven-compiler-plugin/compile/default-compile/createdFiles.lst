@@ -1,0 +1,14 @@
+com/firenay/mall/auth/feign/ThirdPartFeignService.class
+com/firenay/mall/auth/controller/Oath2Controller.class
+com/firenay/mall/auth/controller/LoginController$3.class
+com/firenay/mall/auth/controller/Oath2Controller$1.class
+com/firenay/mall/auth/vo/SocialUser.class
+com/firenay/mall/auth/vo/UserLoginVo.class
+com/firenay/mall/auth/config/MyWebConfig.class
+com/firenay/mall/auth/feign/MemberFeignService.class
+com/firenay/mall/auth/vo/UserRegisterVo.class
+com/firenay/mall/auth/controller/LoginController.class
+com/firenay/mall/auth/MallAuthServerApplication.class
+com/firenay/mall/auth/controller/LoginController$1.class
+com/firenay/mall/auth/controller/LoginController$2.class
+com/firenay/mall/auth/config/GlMallSessionConfig.class

@@ -1,0 +1,3 @@
+com/firenay/gateway/MallGatewayApplication.class
+com/firenay/gateway/config/CorsConfigurationMall.class
+com/firenay/gateway/config/SentinelGateWayConfig.class
