@@ -31,7 +31,7 @@ spring:
       time-to-live: 3600000
 #      如果指定了前缀就用我们指定的 如果没有就用缓存的名字作为前缀
 #      key-prefix: CACHE_
-#      是否缓存空值
+#      是否缓存空值 解决缓存穿透问题
       cache-null-values: true
 #    cache-names:
 mybatis-plus:

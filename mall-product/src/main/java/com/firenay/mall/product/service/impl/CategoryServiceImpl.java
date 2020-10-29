@@ -86,7 +86,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 	 *
 	 * @CacheEvict(value = {"category"}, allEntries = true) : 删除这个分区所有数据
 	 *
-	 * @CachePut: 这次查询操作写入缓存
+	 * @CachePut: 这次查询操作写入缓存 双写模式
 	 */
 //	@Caching(evict = {
 //			@CacheEvict(value = {"category"}, key = "'getLevel1Categorys'"),
@@ -115,7 +115,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 	 *  sync = true: --- 开启同步锁
 	 *
 	 */
-	@Cacheable(value = {"category"}, key = "#root.method.name", sync = true)
+	@Cacheable(value = {"category"}, key = "#root.method.name", sync = true)//缓存击穿，加锁
 	@Override
 	public List<CategoryEntity> getLevel1Categorys() {
 		return baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("cat_level", 1));
